@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+html, body, #__next { height: 100%; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color: #0f172a; background:#f8fafc; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.card { background:#fff; border:1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+.hstack { display:flex; gap:12px; align-items:center; }
+.vstack { display:flex; gap:12px; flex-direction:column; }
+.button { background:#1e293b; color:white; border:none; padding:10px 16px; border-radius:8px; cursor:pointer; font-weight:600; }
+.button.secondary { background:#e2e8f0; color:#0f172a; }
+.button:disabled { opacity:.6; cursor:not-allowed; }
+.badge { background:#e2e8f0; color:#334155; border-radius:999px; padding:2px 8px; font-size:12px; }
+.progress { height: 8px; background:#e2e8f0; border-radius:999px; overflow:hidden; }
+.progress > div { height: 100%; background:#0ea5e9; transition: width .3s ease; }
+input[type=file] { border:1px dashed #94a3b8; padding:12px; border-radius:10px; background:#f1f5f9; }
+input[type=text], textarea, select { border:1px solid #cbd5e1; border-radius:8px; padding:10px; width:100%; font-size:14px; background:white; }
+label { font-weight:600; font-size:14px; color:#334155; }
+hr { border: none; border-top:1px solid #e2e8f0; margin: 16px 0; }
+.small { color:#64748b; font-size: 12px; }
+.grid { display:grid; gap:12px; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+img.thumb { width: 100%; height: 240px; object-fit: cover; border-radius: 10px; border:1px solid #e2e8f0; }
